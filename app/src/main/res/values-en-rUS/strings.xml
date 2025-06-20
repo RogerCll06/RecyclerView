@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CibertecApp</string>
+    <string name="text_email">Email</string>
+    <string name="text_pws">Password</string>
+    <string name="btn_login">SIGN IN</string>
+    <string name="btn_register">CREATE</string>
+    <!-- Register -->
+    <string name="text_rg_name">Name</string>
+    <string name="text_rg_lastname">Lastname</string>
+    <string name="text_rg_email">Email</string>
+    <string name="text_rg_clave">Password</string>
+    <string name="text_rg_repeat_clave">Repeat password</string>
+</resources>
