@@ -23,9 +23,27 @@ class PeliculaActivity: AppCompatActivity() {
                 "Spider-Man: No Way Home",
                 "2021", "8.5",
                 "Peter enfrenta enemigos de otros universos.",
-                R.drawable.bembos_logo, "Lanzador de Telarañas"),
+                R.drawable.onepiece, "Lanzador de Telarañas"),
             Pelicula(
                 R.drawable.imagen1,
+                "Spider-Man: No Way Home",
+                "2021", "8.5",
+                "Peter enfrenta enemigos de otros universos.",
+                R.drawable.onepiece, "Lanzador de Telarañas"),
+            Pelicula(
+                R.drawable.perfil2,
+                "Spider-Man: No Way Home",
+                "2021", "8.5",
+                "Peter enfrenta enemigos de otros universos.",
+                R.drawable.bembos_logo, "Lanzador de Telarañas"),
+            Pelicula(
+                R.drawable.perfil2,
+                "Spider-Man: No Way Home",
+                "2021", "8.5",
+                "Peter enfrenta enemigos de otros universos.",
+                R.drawable.hara, "Lanzador de Telarañas"),
+            Pelicula(
+                R.drawable.perfil2,
                 "Spider-Man: No Way Home",
                 "2021", "8.5",
                 "Peter enfrenta enemigos de otros universos.",
@@ -35,19 +53,14 @@ class PeliculaActivity: AppCompatActivity() {
                 "Spider-Man: No Way Home",
                 "2021", "8.5",
                 "Peter enfrenta enemigos de otros universos.",
-                R.drawable.bembos_logo, "Lanzador de Telarañas"),
-            Pelicula(
-                R.drawable.plato,
-                "Spider-Man: No Way Home",
-                "2021", "8.5",
-                "Peter enfrenta enemigos de otros universos.",
-                R.drawable.producto1, "Lanzador de Telarañas")
+                R.drawable.hara, "Lanzador de Telarañas")
+
         )
         val adapter = PeliculAdapter(peliList)
         recyclerPeli.adapter = adapter
         // recyclerCursos.layoutManager = LinearLayoutManager(this)
         // recyclerCursos.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
-        recyclerPeli.layoutManager = GridLayoutManager(this, 1)
+        recyclerPeli.layoutManager = GridLayoutManager(this, 2)
         /*recyclerPeli.layoutManager =
             StaggeredGridLayoutManager(2,
                 LinearLayoutManager.VERTICAL)*/
